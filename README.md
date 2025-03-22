@@ -2,25 +2,25 @@
 
 ##   Introduction
 
-    Before diving into deployment strategies, it's essential to understand what the cloud and cloud computing are. The cloud refers to computing resources such as storage, RAM, CPU, and networking that are delivered over the internet. Cloud computing, on the other hand, is the use of these on-demand resources over the internet to deploy applications or perform tasks without the need for physical hardware. This ensures benefits like accessibility, scalability, observability, reliability, authenticity, and security.
+Before diving into deployment strategies, it's essential to understand what the cloud and cloud computing are. The cloud refers to computing resources such as storage, RAM, CPU, and networking that are delivered over the internet. Cloud computing, on the other hand, is the use of these on-demand resources over the internet to deploy applications or perform tasks without the need for physical hardware. This ensures benefits like accessibility, scalability, observability, reliability, authenticity, and security.
 
-    Cloud computing operates on three primary models:
+ Cloud computing operates on three primary models:
 
-    1.  **IaaS (Infrastructure as a Service):**
+   1.  **IaaS (Infrastructure as a Service):**
         IaaS provides the foundational building blocks for cloud IT, including networking, virtual or dedicated hardware, and data storage.
 
         It offers on-demand computing resources, scalability, elasticity, and full control over the infrastructure.
 
         Examples: AWS EC2, AWS S3, AWS VPC.
 
-    2.  **PaaS (Platform as a Service):**
+   2.  **PaaS (Platform as a Service):**
         PaaS provides a platform for developing, deploying, and managing applications without worrying about the underlying infrastructure.
 
         The cloud provider manages the operating system, middleware, and runtime environments, while users manage applications and data.
 
         Examples: AWS Elastic Beanstalk, AWS RDS (Relational Database Service).
-
-    3.  **SaaS (Software as a Service):**
+       
+   3.  **SaaS (Software as a Service):**
         SaaS delivers software applications over the internet on a subscription basis.
 
         The cloud provider manages everything, including infrastructure, platform, and application. Users only need to use the software.
@@ -46,9 +46,9 @@ This document provides a comparison of the three main cloud computing service mo
 
 ##   Types of Cloud
 
-    There are two primary types of cloud:
+   There are two primary types of cloud:
 
-    1.  **Public Cloud:**
+   1.  **Public Cloud:**
         Public cloud is a cloud computing model where third-party providers like AWS, Google Cloud, and Microsoft Azure own and operate computing resources such as servers, storage, and applications. These resources are shared among multiple users over the internet.
 
         Advantages:
@@ -69,7 +69,7 @@ This document provides a comparison of the three main cloud computing service mo
 
         Examples of public cloud usage include Netflix, Gmail, and Dropbox.
 
-    2.  **Private Cloud:**
+   2.  **Private Cloud:**
         Private cloud is a cloud computing model where resources are exclusively used by a single organization. It offers greater control, security, and customization, making it ideal for businesses with strict data security and compliance requirements.
 
         Advantages:
@@ -90,9 +90,9 @@ This document provides a comparison of the three main cloud computing service mo
 
 ##   Deployment Strategies of Cloud
 
-    There are several deployment strategies for cloud computing, each with its own advantages and disadvantages. Below are the key strategies:
+   There are several deployment strategies for cloud computing, each with its own advantages and disadvantages. Below are the key strategies:
 
-    1.  **Public Cloud Only:**
+   1.  **Public Cloud Only:**
         In this model, all services are hosted entirely on a public cloud platform like AWS, Azure, or Google Cloud.
 
         Deployment:
@@ -137,7 +137,7 @@ This document provides a comparison of the three main cloud computing service mo
         * **Data Backup on Cloud Storage:**
             A company uses Google Cloud Storage to store backup data, using automated scripts to upload and manage data lifecycle.
 
-    2.  **Private Cloud Only:**
+   2.  **Private Cloud Only:**
         In this model, the infrastructure is hosted on-premises or in a dedicated data center and is managed entirely by the organization.
 
         Deployment:
@@ -180,7 +180,7 @@ This document provides a comparison of the three main cloud computing service mo
         * **Database in Private Data Center:**
             A financial institution hosts its database on dedicated servers in a private data center, focusing on security and performance.
 
-    3.  **Public on Private Cloud (Hybrid Cloud):**
+   3.  **Public on Private Cloud (Hybrid Cloud):**
         This model combines public and private clouds, allowing organizations to leverage the strengths of both environments.
 
         Deployment:
@@ -225,7 +225,7 @@ This document provides a comparison of the three main cloud computing service mo
         * **Dev/Test in Public, Production in Private:**
             A company uses the public cloud for development and testing, and deploys the production version to the private cloud.
 
-    4.  **Private on Public Cloud (Dedicated Cloud on Public Infra):**
+   4.  **Private on Public Cloud (Dedicated Cloud on Public Infra):**
         In this model, a private cloud infrastructure is hosted within a public cloud provider’s environment.
 
         Deployment:
@@ -268,7 +268,7 @@ This document provides a comparison of the three main cloud computing service mo
         * **VMware Workloads on AWS:**
             A company runs existing VMware workloads on AWS, utilizing AWS services and their existing VMware tools.
 
-    5.  **Private on Private Cloud (Multi-Private Cloud):**
+   5.  **Private on Private Cloud (Multi-Private Cloud):**
         This strategy involves using multiple private cloud environments across different vendors or locations for redundancy, compliance, and disaster recovery.
 
         Deployment:
@@ -311,7 +311,7 @@ This document provides a comparison of the three main cloud computing service mo
         * **Compliant Financial Infrastructure:**
             A financial institution deploys VMware workloads in multiple private clouds to meet strict regulatory requirements.
 
-    6.  **Public on Public Cloud (Multi-Public Cloud):**
+   6.  **Public on Public Cloud (Multi-Public Cloud):**
         This strategy involves distributing services across multiple public cloud providers to improve reliability, avoid vendor lock-in, and optimize costs.
 
         Deployment:
@@ -354,7 +354,7 @@ This document provides a comparison of the three main cloud computing service mo
         * **Microservices Across Clouds:**
             A company deploys microservices on AWS Lambda and Google Cloud Functions, using an API gateway for unified access.
 
-    7.  **OpenStack on Kubernetes:**
+   7.  **OpenStack on Kubernetes:**
         This approach involves running OpenStack services as containerized applications within Kubernetes clusters.
 
         Deployment:
@@ -397,7 +397,7 @@ This document provides a comparison of the three main cloud computing service mo
         * **Modernized OpenStack with Kubernetes:**
             A company modernizes its OpenStack deployment by containerizing services and managing them with Kubernetes.
 
-    8.  **Kubernetes on OpenStack:**
+   8.  **Kubernetes on OpenStack:**
         This model involves deploying Kubernetes clusters on top of OpenStack infrastructure.
 
         Deployment:
@@ -440,7 +440,7 @@ This document provides a comparison of the three main cloud computing service mo
         * **OpenStack IaaS, Kubernetes PaaS:**
             A company uses OpenStack for IaaS and Kubernetes for PaaS, running VMs on OpenStack and containerized apps on Kubernetes.
 
-    ##   Conclusion
+   ##   Conclusion
 
-    Cloud deployment strategies vary based on organizational needs, budget, and security requirements. Public cloud offers scalability and cost-efficiency, while private cloud provides control and security. Hybrid and multi-cloud strategies combine the best of both worlds, offering flexibility and redundancy. Understanding these strategies helps organizations choose the right approach for their specific use cases.
+   Cloud deployment strategies vary based on organizational needs, budget, and security requirements. Public cloud offers scalability and cost-efficiency, while private cloud provides control and security. Hybrid and multi-cloud strategies combine the best of both worlds, offering flexibility and redundancy. Understanding these strategies helps organizations choose the right approach for their specific use cases.
     ```
