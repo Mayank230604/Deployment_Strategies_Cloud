@@ -1,8 +1,8 @@
-# Cloud Deployment Strategies
+# Deployment Strategies of Cloud
 
 ## Introduction
 
-This document provides an overview of cloud deployment strategies. To begin, let's clarify what the cloud and cloud computing are before diving into deployment strategies. The **cloud** refers to computing resources such as storage, RAM, CPU, and networking that are delivered over the internet. **Cloud computing**, on the other hand, involves utilizing these on-demand resources for tasks like deploying applications without the need for physical hardware. This approach ensures accessibility, scalability, observability, reliability, and security.
+To begin, let's clarify what the cloud and cloud computing are before diving into deployment strategies. The cloud refers to computing resources such as storage, RAM, CPU, and networking that are delivered over the internet. Cloud computing, on the other hand, involves utilizing these on-demand resources for tasks like deploying applications without the need for physical hardware. This approach ensures accessibility, scalability, observability, reliability, and security.
 
 Cloud computing operates on three primary models:
 
@@ -56,7 +56,7 @@ Cloud computing operates on three primary models:
 * A private cloud is a model where resources are exclusively used by a single organization, offering greater control, security, and customization. It is ideal for businesses with strict data security and compliance requirements.
 * **Key Features:**
     * Full control over resources and hardware.
-    * Examples: OpenStack, VMware.
+    * **Examples:** OpenStack, VMware.
 * **Advantages:**
     * **Total Cost of Ownership (TCO):** Full control over resources and hardware.
     * **Security:** Enhanced security due to exclusive access.
